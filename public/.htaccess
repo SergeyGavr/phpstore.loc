@@ -1,0 +1,6 @@
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule (.*) index.php?$1 [L,QSA]
+# если запрос не идет на конкретный файл
+# или дирректорию
+# методом get отправляем запрос ($1)

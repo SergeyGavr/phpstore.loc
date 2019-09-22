@@ -1,0 +1,11 @@
+{
+  "autoload": {
+    "psr-4": {
+      "phpstore\\": "vendor/phpstore/core",
+      "app\\": "app"
+    }
+  },
+  "require": {
+    "gabordemooij/redbean": "dev-master"
+  }
+}
